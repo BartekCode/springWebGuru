@@ -19,8 +19,8 @@ public class Book {
     private String title;
     private String isbn;
 
-    @ManyToMany(mappedBy = "books")
-    @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"),
-            inverseJoinColumns = @JoinColumn(name = "author_id"))
-    private Set<Author> authors;
+//    @ManyToMany(mappedBy = "books")
+//    @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"),
+//            inverseJoinColumns = @JoinColumn(name = "author_id"))
+//    private Set<Author> authors;
 }

@@ -1,4 +1,4 @@
-package com.example.springwebguru.model.repositories;
+package com.example.springwebguru.repositories;
 
 import com.example.springwebguru.model.Book;
 import org.springframework.data.repository.CrudRepository;
